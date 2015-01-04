@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14B25" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <entity name="Show" syncable="YES">
+    <entity name="Show" representedClassName="Show" syncable="YES">
         <attribute name="desc" attributeType="String" syncable="YES"/>
         <attribute name="episodeID" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
         <attribute name="firstRun" attributeType="Boolean" syncable="YES"/>
@@ -8,6 +8,6 @@
         <attribute name="title" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Show" positionX="-54" positionY="-9" width="128" height="120"/>
+        <element name="Show" positionX="-54" positionY="-9" width="128" height="118"/>
     </elements>
 </model>
