@@ -38,7 +38,7 @@
     // Update the user interface for the detail item.
     if (self.detailItem) {
         self.titleField.text = [self.detailItem valueForKey:@"title"];
-        self.episodeIDField.text = [NSString stringWithFormat:@"%d", [[self.detailItem valueForKey:@"episodeID"] integerValue]];
+        self.episodeIDField.text = [NSString stringWithFormat:@"%ld", (long)[[self.detailItem valueForKey:@"episodeID"] integerValue]];
         self.descriptionView.text = [self.detailItem valueForKey:@"desc"];
         self.firstRunSegmentedControl.selectedSegmentIndex = [[self.detailItem valueForKey:@"firstRun"] boolValue];
         self.showTimeLabel.text = [[self.detailItem valueForKey:@"showTime"] description];
